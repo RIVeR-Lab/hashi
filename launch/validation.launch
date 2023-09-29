@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Delay the start of some of the transformation nodes -->
+    <arg name="node_start_delay_long" default="60.0" />    
+    <arg name="node_start_delay" default="45.0" />    
+    <arg name="node_start_delay_short" default="30.0" />
+    <!-- Bring up connection to the VRPN software -->
+    <include file="$(find vrpn_client_ros)/launch/sample.launch"/>
+    <!-- Start the chopstick control driver -->
+    <node pkg="hashi" name="chopstick_master" type="dual_chopstick_validation_ros.py"/>
+    <!-- Launch rviz with all the configurations loaded -->
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find hashi)/rviz/validation.rviz" />
+    <!-- Calculate offset for the chopstick top origin -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="hashi_top_origin" args="0 0 -0.0025 0 0 0 chop_stick_1 hashi_top_origin" launch-prefix="bash -c 'sleep $(arg node_start_delay_short); $0 $@' "/>
+    <!-- Calculate and broadcast the zero position of the platform -->
+    <node pkg="hashi" type="zero_platform_and_record_origin_tf.py" name="log_origin_broadcaster" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+    <node pkg="hashi" type="broadcast_platform_zero_transform.py" name="origin_broadcaster" launch-prefix="bash -c 'sleep $(arg node_start_delay_long); $0 $@' "/>
+    
+</launch>

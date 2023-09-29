@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Logitech Driver -->
+    <include file="$(find pacmod_game_control)/launch/pacmod_game_control.launch"/>
+    <!-- Teleop Controller -->
+    <node pkg="hashi" type="teleop.py" name="teleop_interpreter" output="screen"/>
+    <!-- Hashi Controller -->
+    <node pkg="hashi" name="chopstick_master" type="dual_chopstick_validation_ros.py" output="screen"/>
+    <!-- Resense FT Controller -->
+    <node pkg="resense_ft_ros" name="force_torque_driver" type="resense_driver.py" output="screen"/>
+    <!-- RQT Plot with preset topics for visualization purposes -->
+    <node name="ft_plot" pkg="rqt_plot" type="rqt_plot"
+    args="/ft/wrench/force/x /ft/wrench/force/y /ft/wrench/force/z /ft/wrench/torque/x /ft/wrench/torque/y /ft/wrench/torque/z" />
+</launch>
