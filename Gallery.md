@@ -9,7 +9,7 @@ nav_order: 4
 <html lang="en-US">
 <div style="text-align: center;">
   <figure>
-      <img src="/media/HASHI_edamame.png" alt="HASHI holding an edamame">
+      <img src="./media/HASHI_edamame.png" alt="HASHI holding an edamame">
     <figcaption>HASHI holding an edamame
     </figcaption>
   </figure>
@@ -17,10 +17,11 @@ nav_order: 4
 
 <div style="text-align: center;">
   <figure>
-      <img src="/media/teleop_pinching.gif" alt="HASHI pinching ">
+      <img src="./media/teleop_pinching.gif" alt="HASHI pinching ">
     <figcaption>HASHI demonstrating pinching
     </figcaption>
   </figure>
 </div>
+</html>
 
 # MORE COMING SOON

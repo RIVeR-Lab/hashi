@@ -20,7 +20,7 @@ permalink: /
       <h1>HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings</h1>
     </div>
     <div class="names">
-      <p><strong> Austin Allison <sup>1*</sup></a>, <a  href="https://nhanson.io/"  >Nathaniel Hanson<sup>1*</sup></a>, Sebastian Wicke<sup>1</sup>, <a  href="https://www.tpadir.info/">Taşkın Padır<sup>1</sup>  </a></sup></a></strong></p>
+      <p><strong> Austin Allison <sup>1*</sup><a></a>, <a  href="https://nhanson.io/"  >Nathaniel Hanson<sup>1*</sup></a>, Sebastian Wicke<sup>1</sup>, <a  href="https://www.tpadir.info/">Taşkın Padır<sup>1</sup></a></strong></p>
   </div>
 
 
@@ -49,7 +49,7 @@ weight, and firmness.
 
 <div style="text-align: center;">
   <figure>
-      <img src="/media/HASHI_nigiri.png" alt="HASHI holding a piece of salmon nigiri">
+      <img src="./media/HASHI_nigiri.png" alt="HASHI holding a piece of salmon nigiri">
     <figcaption>HASHI holding a piece of salmon nigiri
     </figcaption>
   </figure>

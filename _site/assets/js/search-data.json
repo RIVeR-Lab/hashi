@@ -1,0 +1,86 @@
+{"0": {
+    "doc": "Build Instructions",
+    "title": "COMING SOON",
+    "content": " ",
+    "url": "/Build_Instructions.html#coming-soon",
+    "relUrl": "/Build_Instructions.html#coming-soon"
+  },"1": {
+    "doc": "Build Instructions",
+    "title": "Build Instructions",
+    "content": " ",
+    "url": "/Build_Instructions.html",
+    "relUrl": "/Build_Instructions.html"
+  },"2": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "COMING SOON",
+    "content": " ",
+    "url": "/Getting_Started/FT_sensor.html#coming-soon",
+    "relUrl": "/Getting_Started/FT_sensor.html#coming-soon"
+  },"3": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "Force Torque Sensor Setup",
+    "content": " ",
+    "url": "/Getting_Started/FT_sensor.html",
+    "relUrl": "/Getting_Started/FT_sensor.html"
+  },"4": {
+    "doc": "Gallery",
+    "title": "A sample of HASHI doing work",
+    "content": "HASHI holding an edamame HASHI demonstrating pinching . ",
+    "url": "/Gallery.html#a-sample-of-hashi-doing-work",
+    "relUrl": "/Gallery.html#a-sample-of-hashi-doing-work"
+  },"5": {
+    "doc": "Gallery",
+    "title": "MORE COMING SOON",
+    "content": " ",
+    "url": "/Gallery.html#more-coming-soon",
+    "relUrl": "/Gallery.html#more-coming-soon"
+  },"6": {
+    "doc": "Gallery",
+    "title": "Gallery",
+    "content": " ",
+    "url": "/Gallery.html",
+    "relUrl": "/Gallery.html"
+  },"7": {
+    "doc": "Getting Started",
+    "title": "COMING SOON",
+    "content": " ",
+    "url": "/Getting_Started/Getting_Started.html#coming-soon",
+    "relUrl": "/Getting_Started/Getting_Started.html#coming-soon"
+  },"8": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": " ",
+    "url": "/Getting_Started/Getting_Started.html",
+    "relUrl": "/Getting_Started/Getting_Started.html"
+  },"9": {
+    "doc": "Microcontroller Setup",
+    "title": "COMING SOON",
+    "content": " ",
+    "url": "/Getting_Started/Microcontroller.html#coming-soon",
+    "relUrl": "/Getting_Started/Microcontroller.html#coming-soon"
+  },"10": {
+    "doc": "Microcontroller Setup",
+    "title": "Microcontroller Setup",
+    "content": " ",
+    "url": "/Getting_Started/Microcontroller.html",
+    "relUrl": "/Getting_Started/Microcontroller.html"
+  },"11": {
+    "doc": "Home",
+    "title": "HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings",
+    "content": "Austin Allison 1*, Nathaniel Hanson1*, Sebastian Wicke1, Taşkın Padır1 . ",
+    "url": "/",
+    "relUrl": "/"
+  },"12": {
+    "doc": "Home",
+    "title": "Abstract",
+    "content": "The seafood processing industry provides fertile ground for robotics to impact the future-of-work from multiple perspectives including productivity, worker safety, and quality of work life. The robotics research challenge is the realization of flexible and reliable manipulation of soft, deformable, slippery, spiky and scaly objects. In this paper, we propose a novel robot end effector, called HASHI, that employs chopstick-like appendages for precise and dexterous manipulation. This gripper is capable of in-hand manipulation by rotating its two constituent sticks relative to each other and offers control of objects in all three axes of rotation by imitating human use of chopsticks. HASHI delicately positions and orients food through embedded 6-axis force-torque sensors. We derive and validate the kinematic model for HASHI, as well as demonstrate grip force and torque readings from the sensorization of each chopstick. We also evaluate the versatility of HASHI through grasping trials of a variety of real and simulated food items with varying geometry, weight, and firmness. HASHI holding a piece of salmon nigiri Link to the Github . ∗These authors contributed equally . ",
+    "url": "/",
+    "relUrl": "/"
+  },"13": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings . ",
+    "url": "/",
+    "relUrl": "/"
+  }
+}
