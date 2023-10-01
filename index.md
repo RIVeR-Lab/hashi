@@ -23,6 +23,11 @@ permalink: /
       <p><strong> Austin Allison <sup>1*</sup><a></a>, <a  href="https://nhanson.io/"  >Nathaniel Hanson<sup>1*</sup></a>, Sebastian Wicke<sup>1</sup>, <a  href="https://www.tpadir.info/">Taşkın Padır<sup>1</sup></a></strong></p>
   </div>
 
+  <div>
+    <div style="position:relative;padding-top:56.25%;">
+      <iframe src="https://www.youtube.com/embed/36idGZOnESs?si=cUsFvBwUTLQvg5QG"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    </div>
+  </div>
 
   </div>
   <h2>Abstract</h2>
