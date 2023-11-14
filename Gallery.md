@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gallery
-nav_order: 4
+nav_order: 2
 ---
 
 # A sample of HASHI doing work

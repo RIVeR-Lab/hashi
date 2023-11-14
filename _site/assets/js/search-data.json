@@ -1,82 +1,106 @@
 {"0": {
     "doc": "Build Instructions",
-    "title": "COMING SOON",
-    "content": " ",
-    "url": "/Build_Instructions.html#coming-soon",
-    "relUrl": "/Build_Instructions.html#coming-soon"
+    "title": "General Guidlines",
+    "content": "HASHI as presented in the paper was comprised of 3D printed parts, lasercut acrylic, commercially-available hardware, and then electromechanical components. The 3D printed parts were printed in CF-Nylon on a Markforged X7, however they were first prototyped in PLA on a standard FDM printer. PLA is fine as a research platform, at the cost of some robustness due to the slightly compliant nature of CF-Nylon. Keep in mind that all tolerances for the CAD design were chosen with Markforged-level dimensional accuracy in mind, and may need to be adjusted by hand in the CAD, or after printing. ",
+    "url": "/Build_Instructions.html#general-guidlines",
+    "relUrl": "/Build_Instructions.html#general-guidlines"
   },"1": {
+    "doc": "Build Instructions",
+    "title": "MORE COMING SOON",
+    "content": " ",
+    "url": "/Build_Instructions.html#more-coming-soon",
+    "relUrl": "/Build_Instructions.html#more-coming-soon"
+  },"2": {
     "doc": "Build Instructions",
     "title": "Build Instructions",
     "content": " ",
     "url": "/Build_Instructions.html",
     "relUrl": "/Build_Instructions.html"
-  },"2": {
-    "doc": "Force Torque Sensor Setup",
-    "title": "COMING SOON",
-    "content": " ",
-    "url": "/Getting_Started/FT_sensor.html#coming-soon",
-    "relUrl": "/Getting_Started/FT_sensor.html#coming-soon"
   },"3": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "Introduction",
+    "content": "Each appendage uses a HEX12 sensor manufactured by Resense . Please note that these sensors are quite small, and must be handled with care when mounting to the chopstick backend, and while inserting the chopstick appendage. There is a quickstart guide that comes with the sensor components, that has similar instructions to these. Feel free to refer to both, as this set of instructions has a few additional notes for HASHI specifically. ",
+    "url": "/Getting_Started/FT_sensor.html#introduction",
+    "relUrl": "/Getting_Started/FT_sensor.html#introduction"
+  },"4": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "Sub-system Assembly Guide",
+    "content": "The two main components of the HEX12 sensing package are the sensor itself, and the electronics control box. Instructions for assembly and configuration are detailed as follows: . | Look at the 8-switch configuration on the front of the control box, and make sure that switches XX are flipped to ON, and all others are flipped to OFF . | Insert the flat-flex HEX12 sensor cable into the board-mount connector with the flat-flex metallic pads facing away from the PCB . | Plug the other end of that cable into the electronics control box, and engage the screw terminals . | Insert a small zip-tie into the divot on the spherical ball joint mount and use to secure this cable . | Side note: when routing this cable away from your HASHI platform to the control box, make sure you leave enough slack near HASHI to allow for full linear range of motion without any binding | . | Connect the micro USB cable from the electronics box to your computer, and turn on the electronics box . | . Good job! Now you are ready to calibrate your HEX12 sensor! . ",
+    "url": "/Getting_Started/FT_sensor.html#sub-system-assembly-guide",
+    "relUrl": "/Getting_Started/FT_sensor.html#sub-system-assembly-guide"
+  },"5": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "Electronics and Initial Software Configuration",
+    "content": "After everything is assembled, we need to do a couple things to make sure that the sensor is calibrated correctly . | Locate the USB flashdrive shipped with the sensor and electronics and plug into your computer. This flashdrive contains a few things | . | A GUI that allows for customization and viewing of raw or processed signals on each of the sensor channels . | A calibration matrix specific to each individual sensor that must be loaded . | . ",
+    "url": "/Getting_Started/FT_sensor.html#electronics-and-initial-software-configuration",
+    "relUrl": "/Getting_Started/FT_sensor.html#electronics-and-initial-software-configuration"
+  },"6": {
+    "doc": "Force Torque Sensor Setup",
+    "title": "Software Configuration with ROS",
+    "content": "One of our contributions with this work was a ROS1 driver for these sensors. This is used to visualize the filtered output in RQT, as well as save time-dependent data as a bag file . ",
+    "url": "/Getting_Started/FT_sensor.html#software-configuration-with-ros",
+    "relUrl": "/Getting_Started/FT_sensor.html#software-configuration-with-ros"
+  },"7": {
     "doc": "Force Torque Sensor Setup",
     "title": "Force Torque Sensor Setup",
     "content": " ",
     "url": "/Getting_Started/FT_sensor.html",
     "relUrl": "/Getting_Started/FT_sensor.html"
-  },"4": {
+  },"8": {
     "doc": "Gallery",
     "title": "A sample of HASHI doing work",
     "content": "HASHI holding an edamame HASHI demonstrating pinching . ",
     "url": "/Gallery.html#a-sample-of-hashi-doing-work",
     "relUrl": "/Gallery.html#a-sample-of-hashi-doing-work"
-  },"5": {
+  },"9": {
     "doc": "Gallery",
     "title": "MORE COMING SOON",
     "content": " ",
     "url": "/Gallery.html#more-coming-soon",
     "relUrl": "/Gallery.html#more-coming-soon"
-  },"6": {
+  },"10": {
     "doc": "Gallery",
     "title": "Gallery",
     "content": " ",
     "url": "/Gallery.html",
     "relUrl": "/Gallery.html"
-  },"7": {
+  },"11": {
     "doc": "Getting Started",
-    "title": "COMING SOON",
-    "content": " ",
-    "url": "/Getting_Started/Getting_Started.html#coming-soon",
-    "relUrl": "/Getting_Started/Getting_Started.html#coming-soon"
-  },"8": {
+    "title": "General Guidelines",
+    "content": "This assumes that you have finished the fabrication and assembly of your new HASHI end-effector, and are ready to configure the electronics and software. We recommend following the guides in the order that they are presented here. ",
+    "url": "/Getting_Started/Getting_Started.html#general-guidelines",
+    "relUrl": "/Getting_Started/Getting_Started.html#general-guidelines"
+  },"12": {
     "doc": "Getting Started",
     "title": "Getting Started",
     "content": " ",
     "url": "/Getting_Started/Getting_Started.html",
     "relUrl": "/Getting_Started/Getting_Started.html"
-  },"9": {
+  },"13": {
     "doc": "Microcontroller Setup",
     "title": "COMING SOON",
     "content": " ",
     "url": "/Getting_Started/Microcontroller.html#coming-soon",
     "relUrl": "/Getting_Started/Microcontroller.html#coming-soon"
-  },"10": {
+  },"14": {
     "doc": "Microcontroller Setup",
     "title": "Microcontroller Setup",
     "content": " ",
     "url": "/Getting_Started/Microcontroller.html",
     "relUrl": "/Getting_Started/Microcontroller.html"
-  },"11": {
+  },"15": {
     "doc": "Home",
     "title": "HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings",
     "content": "Austin Allison 1*, Nathaniel Hanson1*, Sebastian Wicke1, Taşkın Padır1 . ",
     "url": "/",
     "relUrl": "/"
-  },"12": {
+  },"16": {
     "doc": "Home",
     "title": "Abstract",
-    "content": "The seafood processing industry provides fertile ground for robotics to impact the future-of-work from multiple perspectives including productivity, worker safety, and quality of work life. The robotics research challenge is the realization of flexible and reliable manipulation of soft, deformable, slippery, spiky and scaly objects. In this paper, we propose a novel robot end effector, called HASHI, that employs chopstick-like appendages for precise and dexterous manipulation. This gripper is capable of in-hand manipulation by rotating its two constituent sticks relative to each other and offers control of objects in all three axes of rotation by imitating human use of chopsticks. HASHI delicately positions and orients food through embedded 6-axis force-torque sensors. We derive and validate the kinematic model for HASHI, as well as demonstrate grip force and torque readings from the sensorization of each chopstick. We also evaluate the versatility of HASHI through grasping trials of a variety of real and simulated food items with varying geometry, weight, and firmness. HASHI holding a piece of salmon nigiri Link to the Github . ∗These authors contributed equally . ",
+    "content": "The seafood processing industry provides fertile ground for robotics to impact the future-of-work from multiple perspectives including productivity, worker safety, and quality of work life. The robotics research challenge is the realization of flexible and reliable manipulation of soft, deformable, slippery, spiky and scaly objects. In this paper, we propose a novel robot end effector, called HASHI, that employs chopstick-like appendages for precise and dexterous manipulation. This gripper is capable of in-hand manipulation by rotating its two constituent sticks relative to each other and offers control of objects in all three axes of rotation by imitating human use of chopsticks. HASHI delicately positions and orients food through embedded 6-axis force-torque sensors. We derive and validate the kinematic model for HASHI, as well as demonstrate grip force and torque readings from the sensorization of each chopstick. We also evaluate the versatility of HASHI through grasping trials of a variety of real and simulated food items with varying geometry, weight, and firmness. ∗These authors contributed equally HASHI holding a piece of salmon nigiri Link to the Github . ArXiv Link . Bibtex . @misc{allison2023hashi, title={HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings}, author={Austin Allison and Nathaniel Hanson and Sebastian Wicke and Taşkın Padır}, year={2023}, eprint={2311.02277}, archivePrefix={arXiv}, primaryClass={cs.RO} } . Correspondence: allison [.] a [@] northeastern [.] edu . ",
     "url": "/",
     "relUrl": "/"
-  },"13": {
+  },"17": {
     "doc": "Home",
     "title": "Home",
     "content": "HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings . ",

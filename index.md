@@ -51,6 +51,7 @@ variety of real and simulated food items with varying geometry,
 weight, and firmness.
   </p>
 
+∗These authors contributed equally
 
 <div style="text-align: center;">
   <figure>
@@ -65,5 +66,18 @@ weight, and firmness.
   </p>
 </body>
 </html>
-∗These authors contributed equally
 
+### [ArXiv Link](https://arxiv.org/abs/2311.02277)
+### Bibtex
+  ```
+@misc{allison2023hashi,
+      title={HASHI: Highly Adaptable Seafood Handling Instrument for Manipulation in Industrial Settings}, 
+      author={Austin Allison and Nathaniel Hanson and Sebastian Wicke and Taşkın Padır},
+      year={2023},
+      eprint={2311.02277},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
+
+Correspondence: allison [.] a [@] northeastern [.] edu
