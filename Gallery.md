@@ -17,6 +17,22 @@ nav_order: 2
 
 <div style="text-align: center;">
   <figure>
+      <img src="./media/HASHI_noodles.png" alt="HASHI picking up ramen noodles">
+    <figcaption>HASHI picking up ramen noodles
+    </figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center;">
+  <figure>
+      <img src="./media/HASHI_shrimp.png" alt="HASHI holding a small shrimp">
+    <figcaption>HASHI holding a small shrimp
+    </figcaption>
+  </figure>
+</div>
+
+<div style="text-align: center;">
+  <figure>
       <img src="./media/teleop_pinching.gif" alt="HASHI pinching ">
     <figcaption>HASHI demonstrating pinching
     </figcaption>
