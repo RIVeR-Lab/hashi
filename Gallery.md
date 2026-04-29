@@ -39,5 +39,3 @@ nav_order: 2
   </figure>
 </div>
 </html>
-
-# MORE COMING SOON
